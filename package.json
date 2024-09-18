@@ -1,0 +1,30 @@
+{
+  "name": "icrc-token-ledger-tools",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "icp",
+    "icrc",
+    "tokens",
+    "ledger",
+    "CyberNinjasLab"
+  ],
+  "author": "CyberNinjasLab",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@dfinity/ledger-icp": "^2.4.0",
+    "@dfinity/ledger-icrc": "^2.4.0",
+    "@dfinity/utils": "^2.4.0",
+    "ic0": "^0.2.8"
+  }
+}
